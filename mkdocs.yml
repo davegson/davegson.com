@@ -27,6 +27,7 @@ extra_css:
   - assets/css/nav.css
   - assets/css/footer.css
   - assets/css/tweaks.css
+  - assets/css/cv.css
 
 plugins:
   - search

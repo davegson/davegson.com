@@ -1,0 +1,63 @@
+/*
+  instead of creating a custom class for this page,
+  work with the [id="david-gunnarsson"] selector to customize elements as needed
+  
+  this way, you don't have to monkey patch mkdocs
+*/
+
+.md-content__inner:has(h1[id="david-gunnarsson"]) {
+  max-width: 890px;
+}
+
+h1[id="david-gunnarsson"] {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 0.5rem;
+}
+
+.md-content__inner:has(h1[id="david-gunnarsson"]) h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.md-content__inner:has(h1[id="david-gunnarsson"]) h3 {
+  text-transform: uppercase;
+}
+
+.md-content__inner:has(h1[id="david-gunnarsson"]) .intro {
+  display: flex;
+  gap: 1rem;
+}
+
+.md-content__inner:has(h1[id="david-gunnarsson"]) .intro h3 {
+  margin: .8em 0 .4em;
+}
+
+.md-content__inner:has(h1[id="david-gunnarsson"]) .intro img {
+  width: 250px;
+  height: 250px;
+  margin-right: 1rem;
+}
+
+.md-content__inner:has(h1[id="david-gunnarsson"]) .skills {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 4px;
+}
+
+.md-content__inner:has(h1[id="david-gunnarsson"]) .skills code {
+  background-color: #cde8fe;
+  padding: 3px 6px;
+  margin: 0 5px 5px 0;
+  border-radius: 0;
+  font-weight: bold;
+}
+
+.md-content__inner:has(h1[id="david-gunnarsson"]) ul li {
+  margin-bottom: 0;
+}
+
+.md-content__inner:has(h1[id="david-gunnarsson"]) p {
+  margin: 0;
+}
