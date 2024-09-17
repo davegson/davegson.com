@@ -32,8 +32,9 @@ article:last-child {
 }
 
 /* Automatically add an external arrow icon ::after every outgoing link */
+
 main a[href^="http"]:not([href*="davegson.com"]):not([href*="localhost"]):after {
-  background-image: url('/assets/external/icons/material/arrow-top-right.svg');
+  background-image: url('/assets/icons/material/arrow-top-right.svg');
   display: inline-block;
   height: 15px;
   width: 1rem;
@@ -48,5 +49,5 @@ main a[href^="http"]:not([href*="davegson.com"]):not([href*="localhost"]):after 
 
 /* since color of the external icon has to be hardcoded into the svg we created a second one for the hover color */
 main a[href^="http"]:hover:not([href*="davegson.com"]):not([href*="localhost"]):after {
-  background-image: url('/assets/external/icons/material/arrow-top-right.svg');
+  background-image: url('/assets/icons/material/arrow-top-right-hover.svg');
 }
