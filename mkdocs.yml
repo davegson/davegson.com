@@ -37,6 +37,7 @@ plugins:
   - privacy
   - blog:
       pagination_per_page: 1
+      blog_dir: .
   - rss:
       match_path: blog/posts/.*
       date_from_meta:
