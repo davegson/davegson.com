@@ -2,8 +2,6 @@ site_name: davegson
 site_url: https://davegson.com
 theme:
   name: material
-  palette:
-    primary: white
   logo: /assets/img/davegson.jpg
   favicon: /assets/img/davegson.jpg
   font:
@@ -13,12 +11,9 @@ theme:
   custom_dir: overrides
   features:
     # - navigation.instant # this messed up the live verion for David with Brave, remove to quickfix, maybe reconsider in the future
-    - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
     - navigation.sections
-    - navigation.path
 
 markdown_extensions:
   - attr_list
