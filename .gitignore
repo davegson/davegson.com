@@ -1,0 +1,9 @@
+/log/*
+/tmp/*
+/.cache/*
+/site/*
+!/log/.keep
+!/tmp/.keep
+
+.DS_Store
+*.DS_Store

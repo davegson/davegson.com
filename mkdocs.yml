@@ -1,0 +1,46 @@
+site_name: davegson
+site_url: https://davegson.com
+theme:
+  name: material
+  palette:
+    primary: white
+  logo: /assets/img/davegson.jpg
+  favicon: /assets/img/davegson.jpg
+  font:
+    text: Lato
+  icon:
+    repo: fontawesome/brands/github
+  custom_dir: overrides
+  features:
+    # - navigation.instant # this messed up the live verion for David with Brave, remove to quickfix, maybe reconsider in the future
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - navigation.sections
+    - navigation.path
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - assets/css/reset.css
+  - assets/css/landing-page.css
+  - assets/css/tooltips.css
+  - assets/css/tweaks.css
+
+plugins:
+  - search
+  - privacy
+  - blog:
+      pagination_per_page: 1
+  - rss:
+      match_path: blog/posts/.*
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags
