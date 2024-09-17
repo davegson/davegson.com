@@ -1,0 +1,28 @@
+footer {
+  padding: 2rem 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.footer-content > div {
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.footer-content h5 {
+  font-size: x-large;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.footer-content > div:first-child {
+  padding-right: 5rem;
+  border-right: solid 1px white;
+}

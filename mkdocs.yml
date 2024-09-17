@@ -25,6 +25,7 @@ extra_css:
   - assets/css/reset.css
   - assets/css/tooltips.css
   - assets/css/nav.css
+  - assets/css/footer.css
   - assets/css/tweaks.css
 
 plugins:
