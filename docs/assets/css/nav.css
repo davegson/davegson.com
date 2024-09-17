@@ -1,0 +1,41 @@
+/* header nav bar */
+
+a[title="davegson"] img {
+  border-radius: 50px;
+}
+
+.md-header__topic .name {
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-right: 0.5rem;
+}
+
+.md-header__topic .last-name {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.md-header__title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.md-search__form {
+  border-radius: 20px;
+}
+
+/* side nav bar on big screens */
+@media screen and (min-width: 76.25em) {
+  .md-nav__title {
+    display: none;
+  }
+  /* hide the About Me Section Header (as the index page is named About Me too) */
+  #__nav_2_label {
+    display: none;
+  }
+
+  /* directly position the "About Me" underneath "All Posts", as no section Header divides the two sections */
+  .md-nav__item:nth-child(2) {
+    margin-top: 0;
+  }
+}
