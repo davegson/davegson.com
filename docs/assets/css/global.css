@@ -3,3 +3,55 @@
   --md-footer-bg-color: #2E383B;
   --md-typeset-a-color: #4051b5;
 }
+
+.goodie {
+  border: 1px solid #ccc;
+  margin-top: 3rem;
+  padding: 1rem;
+  font-size: 0.8rem;
+  background-color: #f0fbff;
+}
+
+.goodie::before {
+  content: "Goodie";
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+  break-after: always;
+  display: block;
+}
+
+.quote {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1em;
+  border: 1px solid #ccc;
+  padding: 1em;
+  border-radius: 5px;
+  font-size: 1.2em;
+  margin-bottom: 2em;
+
+  img {
+    min-width: 80px;
+    width: 12.5%;
+    border-radius: 500px; 
+  }
+}
+
+.quote span::before {
+  content: "\"";
+  font-size: 1.5em;
+}
+
+.quote span::after {
+  content: "\"";
+  font-size: 1.5em;
+}
+
+/* hide quote img on big screens */
+@media screen and (min-width: 76.25em) {
+  .quote img {
+    display: none;
+  }
+}
+
