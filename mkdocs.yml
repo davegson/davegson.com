@@ -1,4 +1,4 @@
-site_name: davegson
+site_name: David Gunnarsson | A Personal Blog
 site_url: https://davegson.com
 theme:
   name: material
@@ -29,13 +29,20 @@ extra_css:
   - assets/css/footer.css
   - assets/css/tweaks.css
   - assets/css/cv.css
+  - assets/css/blog.css
 
 plugins:
   - search
   - privacy
   - blog:
-      pagination_per_page: 1
+      pagination_per_page: 5
       blog_dir: .
+      categories_allowed:
+        - A Builder's Journey
+        - Coding
+        - Marketing
+        - Philosophy
+        - Writing
   - rss:
       match_path: blog/posts/.*
       date_from_meta:

@@ -59,7 +59,7 @@ hide:
 #### Senior Software Engineer at [University Vienna](https://zid.univie.ac.at/en/) | since 10/2023
 
 - Building a safe and easy to use storage solution for encrypted research data
-- Deploying and maintaining services
+- Deploying and maintaining various services
 - Revamped & modernized the web presence of our department's main project [PHAIDRA](https://phaidra.org)
 
 #### Senior Software Engineer & Co-Founder of [Safing](https://safing.io) | 09/2017 — 08/2023

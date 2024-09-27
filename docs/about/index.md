@@ -11,7 +11,7 @@ title: About Me
 
 # Builder. Adventurer. Philosopher.
 
-I'm David Gunnarsson. Together with my wife, I live in Vienna, Austria. Growing up in a home that always had a computer, I was into gaming from my earliest childhood. Even though I was fascinated by math and tech, I still was a late bloomer coding wise: only in my final school years I had the means to dive into the captivating world of coding and web development.
+I'm David Gunnarsson. Together with my wife I live in Vienna, Austria. Growing up in a home that always had a computer, I was into gaming from my earliest childhood. Even though I was fascinated by math and tech, I still was a late bloomer coding wise: only in my final school years I had the means to dive into the captivating world of coding and web development.
 
 Growing up and living with multiple languages and cultures, I am deeply fascinated by different ways of life. I firmly believe Earth's beauty lies in its diversity.
 
