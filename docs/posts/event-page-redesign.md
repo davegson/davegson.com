@@ -9,7 +9,7 @@ readtime: 8 # 5 was auto-calculated, but time will be spent on the images filled
 
 # How to Redesign an Event Landing Page - From Scratch to New Design
 
-Recently a collegue asked if I wanted to redesign an event page for a fellow University event. Well of course, I love small gigs! Ready to ride along? I will show how to detect issues in the current design, how to plan for improvements and of course the final design.
+Recently a colleague asked if I wanted to redesign an event page for a fellow University event. Well of course, I love small gigs! Ready to ride along? I will show how to detect issues in the current design, how to plan for improvements and of course the final design.
 
 <!-- more -->
 
