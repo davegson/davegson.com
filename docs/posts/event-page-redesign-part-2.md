@@ -8,7 +8,7 @@ categories:
 
 # How to Redesign an Event Landing Page - From Design to Full HTML
 
-Recently a colleague asked if I wanted to redesign an event page for a fellow University event. Well of course, I love small gigs! Ready to ride along? I will show you how to take the [finished design from Part 1](/2024/10/11/how-to-redesign-an-event-landing-page---from-scratch-to-new-design/) and fully implement it into a static HTML & CSS website.
+Recently a colleague asked if I wanted to redesign an event page for a fellow University event. Well of course, I love small gigs! Ready to ride along? I will show you how to take the [finished design from Part 1]({{ config.site_url }}/2024/10/11/how-to-redesign-an-event-landing-page---from-scratch-to-new-design/) and fully implement it into a static HTML & CSS website.
 
 <!-- more -->
 
@@ -28,7 +28,7 @@ To fulfill the first point we would only need a simple HTML page with some CSS, 
 
 I have been using mkdocs material for my team's [main project](https://phaidra.org) and also for this blog. And it easily fits the needs for the event landing page too. Convenient and good choice for sure. So off we go and set up a basic page with mkdocs [](https://squidfunk.github.io/mkdocs-material/getting-started/):
 
-![](/assets/img/posts/event-page-redesign-ii/barcamp3-raw-mkdocs.png)
+![]({{ config.site_url }}/assets/img/posts/event-page-redesign-ii/barcamp3-raw-mkdocs.png)
 
 Just by selecting the right tool we already fulfill requirement 2., ready to be used whenever the maintainers decide to add docs. Now the only job left for us is to customize our landing page to bring our design to life.
 
@@ -36,7 +36,7 @@ Just by selecting the right tool we already fulfill requirement 2., ready to be 
 
 Before diving into any fancy details, we need to set up the overall page layout. We inspect the [new design](http://localhost:8000/2024/10/11/how-to-redesign-an-event-landing-page---from-scratch-to-new-design/#the-result-a-finished-figma-prototype) and structurally divide it into its natural sections. I counted six: `<Nav>`, `<Hero>`, `<Features>`, `<Call to Action>`, `<Discussion>` and `<Footer>`.
 
-![](/assets/img/posts/event-page-redesign-ii/barcamp3-prototype-sections.png)
+![]({{ config.site_url }}/assets/img/posts/event-page-redesign-ii/barcamp3-prototype-sections.png)
 
 We can see that this is a three-column layout. The `<Nav>`, `<Hero>`, `<Call to Action>` and `<Footer>` should span the entire width, while the `<Features>` and `<Discussion>` should only span the middle part with white space to spare left and right.
 
@@ -163,7 +163,7 @@ So after some repetitive prep-work, we can set up the layout with `:::css grid-t
 
 Now look at the result:
 
-![](/assets/img/posts/event-page-redesign-ii/barcamp3-layout-skeleton-desktop.png)
+![]({{ config.site_url }}/assets/img/posts/event-page-redesign-ii/barcamp3-layout-skeleton-desktop.png)
 
 Wow, this is amazing for a rather small amount of groundwork. Each element is visible due to the glittery borders. Notice how the middle column perfectly aligns with the content within the `<nav>` and `<footer>` provided by mkdocs. Perfect!
 
@@ -183,7 +183,7 @@ But what about smaller screens? On mobile we want a single column where all cont
 
 And just like that, we created a mobile-friendly layout:
 
-![](/assets/img/posts/event-page-redesign-ii/barcamp3-layout-skeleton-mobile.png){style="width:40%;margin: 0 auto;"}
+![]({{ config.site_url }}/assets/img/posts/event-page-redesign-ii/barcamp3-layout-skeleton-mobile.png){style="width:40%;margin: 0 auto;"}
 
 With `:::css grid-template-areas`, you could super easily create another view for tablets etc. I love that tool! But for us, we now have all the basics done.
 

@@ -19,7 +19,7 @@ Check out the current website:
 
 **Homepage**
 
-![](/assets/img/posts/event-page-redesign/barcamp3-old-home.png)
+![]({{ config.site_url }}/assets/img/posts/event-page-redesign/barcamp3-old-home.png)
 
 Even though it is in German you will follow along easily as I'll translate the key bits.
 
@@ -28,7 +28,7 @@ Even though it is in German you will follow along easily as I'll translate the k
 
 **Details Page**
 
-![](/assets/img/posts/event-page-redesign/barcamp3-old-info.png)
+![]({{ config.site_url }}/assets/img/posts/event-page-redesign/barcamp3-old-info.png)
 
 > **Translation:** The page starts off with the **What?** header (OER-Infrastructure-Barcamp), accompanied with a small motto "normalise openness".
 >
@@ -53,7 +53,7 @@ Diving into each page:
 - Also, the literal questions "When?" and "Where?" are less important than the actual info. So instead of asking, simply give the answer. The visitor will figure out that "14.11.2024" will represent the <**When?**>
 - the <**What?**> is missing on this page
 
-![](/assets/img/posts/event-page-redesign/barcamp3-old-home-highlighted.png)
+![]({{ config.site_url }}/assets/img/posts/event-page-redesign/barcamp3-old-home-highlighted.png)
 
 
 **Details Page**
@@ -62,7 +62,7 @@ Diving into each page:
 - the texts are rather long. A casual visitor will evaluate whether to even attempt to read all of that
 - the event date <**When?**> is repeated, which is good practice! But it is a small element which is not really visible
 
-![](/assets/img/posts/event-page-redesign/barcamp3-old-info-highlighted.png)
+![]({{ config.site_url }}/assets/img/posts/event-page-redesign/barcamp3-old-info-highlighted.png)
 
 ### Steps to Fix The Bad
 
@@ -88,7 +88,7 @@ When designing website layouts, I firmly believe you should not reinvent the whe
 
 So after getting some inspiration from other event landing pages I dived into [Figma](https://www.figma.com/) and came up with this:
 
-![](/assets/img/posts/event-page-redesign/barcamp3-figma-prototype.png)
+![]({{ config.site_url }}/assets/img/posts/event-page-redesign/barcamp3-figma-prototype.png)
 
 ### A Structure That Follows Common Web Conventions
 
@@ -107,7 +107,7 @@ You have seen these website structures before, so as discussed we add some spark
 
 - use "[Fira Code](https://fonts.google.com/specimen/Fira+Code/license)" as the website font, which is often used within terminals, giving the site a nerdy look
 - the ">" also references a terminal
-- "Hello Friend..." references the TV show [Mr. Robot](https://en.wikipedia.org/wiki/Mr._Robot), which I hope many will understand
+- "Hello Friend{{ config.site_url }}." references the TV show [Mr. Robot](https://en.wikipedia.org/wiki/Mr._Robot), which I hope many will understand
 - the second sentence in the hero ("wir müssen reden", translation: "we need to talk") makes it very clear that this is a German event
 - the site is mostly black and white, which vibes with the organizers
 - the image is a rough drawing of mountains; perfect since we do not want anything fancy
