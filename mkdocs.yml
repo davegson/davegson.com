@@ -39,6 +39,7 @@ extra_css:
 
 plugins:
   - search
+  - macros
   - privacy
   - blog:
       pagination_per_page: 5

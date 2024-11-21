@@ -1,6 +1,6 @@
 services:
   mkdocs:
-    image: squidfunk/mkdocs-material:latest
+    build: .
     hostname: mkdocs
     # use build to build everything locally which then can be pushed to server
     # command: "build"
