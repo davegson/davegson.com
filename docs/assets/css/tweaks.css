@@ -33,7 +33,7 @@ article:last-child {
 
 /* Automatically add an external arrow icon ::after every outgoing link */
 
-main a[href^="http"]:not([href*="davegson.com"]):not([href*="localhost"]):after {
+main a[href^="http"]:not([href*="davegson.com"]):not([href*="localhost"]):not([href*="0.0.0.0"]):after {
   background-image: url('/assets/icons/material/arrow-top-right.svg');
   display: inline-block;
   height: 15px;
