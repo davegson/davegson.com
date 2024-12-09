@@ -1,6 +1,9 @@
 ---
 date: 
   created: 2024-12-09
+categories:
+  - A Builder's Journey
+  - Philosophy
 ---
 
 # Focus on ONE Thing to Make Your Life Easier
