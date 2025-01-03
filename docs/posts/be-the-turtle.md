@@ -1,6 +1,9 @@
 ---
 date: 
   created: 2025-01-03
+categories:
+  - A Builder's Journey
+  - Philosophy
 ---
 
 # Create A Life You Want to Live for the Next 10 Years
