@@ -19,7 +19,7 @@ I also love philosophy and theology. As a young adult I decided to follow Jesus 
 
 And lastly, I'm super into simplicity and communication. Finding the main idea within a product or a message - and finding the best way to convey it (ethically), is a remarkable skillset. Next to developing cool stuff, this is the area I am focusing my working hours on.
 
-My blog covers the full range of my interests. I currently publish posts every two weeks. I write as a note to self and hope you will get value out of it too.
+My blog covers the full range of my interests. I write as a note to self and hope you will get value out of it too.
 
 <div class="goodie">
   if you have 35 minutes, watch <a href="https://www.youtube.com/watch?v=nJPERZDfyWc">Everything is a Remix</a>. It's my favorite video on YouTube.
